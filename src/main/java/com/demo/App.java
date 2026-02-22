@@ -1,7 +1,11 @@
 package com.demo;
 
-public class App {
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SampleAppApplication {
     public static void main(String[] args) {
-        System.out.println("Hello from CI/CD pipeline!");
+        SpringApplication.run(SampleAppApplication.class, args);
     }
 }
